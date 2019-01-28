@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hannah">
+	<listeners>
+		<listener class-name="resourcefile.TestListner" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="hannah.GetBrandSubBrandTest" />
+			<class name="hannah.GetBudPackagingTaskListTest" />
+			<class name="hannah.GetClientTest" />
+			<class name="hannah.GetCustomTaskListTest" />
+			<class name="hannah.GetEmployeeListTest" />
+			<class name="hannah.GetJointsCreationTaskListTest" />
+			<class name="hannah.GetJointsGrindingTaskListTest" />
+			<class name="hannah.GetLotListTest" />
+			<class name="hannah.GetOilPackagingTaskListTest" />
+			<class name="hannah.GetPackageTypeTest" />
+			<class name="hannah.GetProductTypeTest" />
+			<class name="hannah.GetQACheckTaskListTest" />
+			<class name="hannah.GetQAFailRelabelTaskListTest" />
+			<class name="hannah.GetQAFailRepackTaskListTest" />
+			<class name="hannah.GetRetailerTest" />
+			<class name="hannah.GetSiftingTaskListTest" />
+			<class name="hannah.GetSkewTypeTest" />
+			<class name="hannah.GetStrainTest" />
+			<class name="hannah.GetTampingTaskListTest" />
+			<class name="hannah.GetTaskTypeTest" />
+			<class name="hannah.GetTrimmingTaskListTest" />
+			<class name="hannah.GetTubingTaskListTest" />
+			<class name="hannah.GetTubLabelingListTest" />				
+			</classes>
+			
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 28 15:02:17 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5509 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='hannah.GetBrandSubBrandTest.GetBrandSubBrandList()'><b>GetBrandSubBrandList</b><br>Test class: hannah.GetBrandSubBrandTest</td>
+<td></td>
+<td>3</td>
+<td>hannah.GetBrandSubBrandTest@30c15d8b</td></tr>
+<tr>
+<td title='hannah.GetBudPackagingTaskListTest.GetBudPackagingtaskList()'><b>GetBudPackagingtaskList</b><br>Test class: hannah.GetBudPackagingTaskListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetBudPackagingTaskListTest@5e0e82ae</td></tr>
+<tr>
+<td title='hannah.GetClientTest.GetClientList()'><b>GetClientList</b><br>Test class: hannah.GetClientTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetClientTest@6771beb3</td></tr>
+<tr>
+<td title='hannah.GetCustomTaskListTest.GetCustomtaskList()'><b>GetCustomtaskList</b><br>Test class: hannah.GetCustomTaskListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetCustomTaskListTest@51399530</td></tr>
+<tr>
+<td title='hannah.GetEmployeeListTest.GetEmployeeList()'><b>GetEmployeeList</b><br>Test class: hannah.GetEmployeeListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetEmployeeListTest@6b2ea799</td></tr>
+<tr>
+<td title='hannah.GetJointsCreationTaskListTest.GetJointCreationtaskList()'><b>GetJointCreationtaskList</b><br>Test class: hannah.GetJointsCreationTaskListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetJointsCreationTaskListTest@411f53a0</td></tr>
+<tr>
+<td title='hannah.GetJointsGrindingTaskListTest.GetJointGrindingtaskList()'><b>GetJointGrindingtaskList</b><br>Test class: hannah.GetJointsGrindingTaskListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetJointsGrindingTaskListTest@2b71e916</td></tr>
+<tr>
+<td title='hannah.GetLotListTest.GetLotList()'><b>GetLotList</b><br>Test class: hannah.GetLotListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetLotListTest@36fc695d</td></tr>
+<tr>
+<td title='hannah.GetOilPackagingTaskListTest.GetOilPackagingList()'><b>GetOilPackagingList</b><br>Test class: hannah.GetOilPackagingTaskListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetOilPackagingTaskListTest@28701274</td></tr>
+<tr>
+<td title='hannah.GetPackageTypeTest.GetPackageTypeList()'><b>GetPackageTypeList</b><br>Test class: hannah.GetPackageTypeTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetPackageTypeTest@13c9d689</td></tr>
+<tr>
+<td title='hannah.GetProductTypeTest.GetProductTypeList()'><b>GetProductTypeList</b><br>Test class: hannah.GetProductTypeTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetProductTypeTest@3754a4bf</td></tr>
+<tr>
+<td title='hannah.GetQACheckTaskListTest.GetQAChecktaskList()'><b>GetQAChecktaskList</b><br>Test class: hannah.GetQACheckTaskListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetQACheckTaskListTest@62379589</td></tr>
+<tr>
+<td title='hannah.GetQAFailRelabelTaskListTest.GetQAFailRelabletaskList()'><b>GetQAFailRelabletaskList</b><br>Test class: hannah.GetQAFailRelabelTaskListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetQAFailRelabelTaskListTest@4afcd809</td></tr>
+<tr>
+<td title='hannah.GetQAFailRepackTaskListTest.GetQAFailRepacktaskList()'><b>GetQAFailRepacktaskList</b><br>Test class: hannah.GetQAFailRepackTaskListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetQAFailRepackTaskListTest@175c2241</td></tr>
+<tr>
+<td title='hannah.GetRetailerTest.GetRetailerList()'><b>GetRetailerList</b><br>Test class: hannah.GetRetailerTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetRetailerTest@5bf0d49</td></tr>
+<tr>
+<td title='hannah.GetSiftingTaskListTest.GetSiftingtaskList()'><b>GetSiftingtaskList</b><br>Test class: hannah.GetSiftingTaskListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetSiftingTaskListTest@5b7a5baa</td></tr>
+<tr>
+<td title='hannah.GetSkewTypeTest.GetSkewTypeList()'><b>GetSkewTypeList</b><br>Test class: hannah.GetSkewTypeTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetSkewTypeTest@776aec5c</td></tr>
+<tr>
+<td title='hannah.GetStrainTest.GetStrainList()'><b>GetStrainList</b><br>Test class: hannah.GetStrainTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetStrainTest@1d296da</td></tr>
+<tr>
+<td title='hannah.GetTampingTaskListTest.GetTampingtaskList()'><b>GetTampingtaskList</b><br>Test class: hannah.GetTampingTaskListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetTampingTaskListTest@7c7a06ec</td></tr>
+<tr>
+<td title='hannah.GetTaskTypeTest.GetTaskTypeList()'><b>GetTaskTypeList</b><br>Test class: hannah.GetTaskTypeTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetTaskTypeTest@75d4a5c2</td></tr>
+<tr>
+<td title='hannah.GetTrimmingTaskListTest.GetTrimmingtaskList()'><b>GetTrimmingtaskList</b><br>Test class: hannah.GetTrimmingTaskListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetTrimmingTaskListTest@557caf28</td></tr>
+<tr>
+<td title='hannah.GetTubLabelingListTest.GetTubeLabelingtaskList()'><b>GetTubeLabelingtaskList</b><br>Test class: hannah.GetTubLabelingListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetTubLabelingListTest@6c6cb480</td></tr>
+<tr>
+<td title='hannah.GetTubingTaskListTest.GetTubingTaskList()'><b>GetTubingTaskList</b><br>Test class: hannah.GetTubingTaskListTest</td>
+<td></td>
+<td>0</td>
+<td>hannah.GetTubingTaskListTest@408d971b</td></tr>
+<tr>
+<td title='pcg.ClientProductListTest.getClientProductList()'><b>getClientProductList</b><br>Test class: pcg.ClientProductListTest</td>
+<td></td>
+<td>0</td>
+<td>pcg.ClientProductListTest@3c46e67a</td></tr>
+<tr>
+<td title='pcg.ClientStrainListTest.getClientStrainList()'><b>getClientStrainList</b><br>Test class: pcg.ClientStrainListTest</td>
+<td></td>
+<td>0</td>
+<td>pcg.ClientStrainListTest@c730b35</td></tr>
+<tr>
+<td title='pcg.MasterStrainListTest.getMasterStrainList()'><b>getMasterStrainList</b><br>Test class: pcg.MasterStrainListTest</td>
+<td></td>
+<td>0</td>
+<td>pcg.MasterStrainListTest@206a70ef</td></tr>
+<tr>
+<td title='pcg.MasterStrainTypeTest.getMasterStrainTypeList()'><b>getMasterStrainTypeList</b><br>Test class: pcg.MasterStrainTypeTest</td>
+<td></td>
+<td>0</td>
+<td>pcg.MasterStrainTypeTest@292b08d6</td></tr>
+<tr>
+<td title='pcg.OrderDetailsTest.getOrderDetailsList()'><b>getOrderDetailsList</b><br>Test class: pcg.OrderDetailsTest</td>
+<td></td>
+<td>0</td>
+<td>pcg.OrderDetailsTest@22555ebf</td></tr>
+<tr>
+<td title='pcg.OrderStatusTest.getOrderStatusList()'><b>getOrderStatusList</b><br>Test class: pcg.OrderStatusTest</td>
+<td></td>
+<td>0</td>
+<td>pcg.OrderStatusTest@36ebc363</td></tr>
+<tr>
+<td title='pcg.PaymentTypeListTest.getPaymentTypeList()'><b>getPaymentTypeList</b><br>Test class: pcg.PaymentTypeListTest</td>
+<td></td>
+<td>0</td>
+<td>pcg.PaymentTypeListTest@45752059</td></tr>
+<tr>
+<td title='pcg.ShippingTypeListTest.getShippingTypeList()'><b>getShippingTypeList</b><br>Test class: pcg.ShippingTypeListTest</td>
+<td></td>
+<td>0</td>
+<td>pcg.ShippingTypeListTest@34e9fd99</td></tr>
+</table><p>
+</body>
+</html>

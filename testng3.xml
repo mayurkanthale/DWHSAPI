@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hannah">
+	<listeners>
+		<listener class-name="resourcefile.TestListner" />
+	</listeners>
+	<test name="Test">
+		<packages>
+            <package name="hannah"/>
+             <package name="pcg"/>
+        </packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

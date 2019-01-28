@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Properties>
+	<Property name="basePath">./logs</Property>
+	</Properties>
+  <Appenders>
+  
+  		<RollingFile name="File" fileName="${basePath}/prints.log" filePattern="${basePath}/prints.log.%i">
+            <PatternLayout pattern="%d{dd MMM yyyy HH:mm:ss.SSS} [%t] %-5level %c{1}:%L %logger{36} - %msg%n"/>            
+               <SizeBasedTriggeringPolicy size="500"/>
+        </RollingFile>
+        
+    <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{dd MMM yyyy HH:mm:ss.SSS} [%t] %-5level %c{1}:%L %logger{36} - %msg%n"/>            
+    </Console>
+  </Appenders>
+  <Loggers>
+   <Logger name="pcg.ClientProductListTest" level="trace" additivity="false">
+      <AppenderRef ref="File"/>
+    </Logger>
+    <Root level="error">
+      <AppenderRef ref="Console"/>
+    </Root>
+  </Loggers>
+</Configuration>
