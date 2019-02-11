@@ -12,7 +12,7 @@ public class Extentreport {
 	public static ExtentTest etlogger;
 
 	public static void SetExtentReport() {
-		htmlReporter = new ExtentHtmlReporter("./Reports/DWHS_API_Test_Report4.html");
+		htmlReporter = new ExtentHtmlReporter("./Reports/DWHS_API_Test_Report.html");
 		htmlReporter.config().setDocumentTitle("DataWarehouse API Test Report");// Title of report
 
 		htmlReporter.config().setReportName("DataWarehouse API Test");// Name of report

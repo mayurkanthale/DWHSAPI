@@ -37,7 +37,7 @@ public class ClientProductListTest {
 		
 //		log.debug("I am Debuging");
 
-		log.info("Object is present");
+//		log.info("Object is present");
 		log.error("Object is Not present");
 
 		log.fatal("I am Fatal");

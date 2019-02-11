@@ -23,12 +23,12 @@ public class Constant {
 	 * 		Live  -	       4						  5
 	 */
 	
-	public static int Hannahclientid = 16 ;
+	public static int Hannahclientid = 4 ;
 	
-	public static int Pcgclientid = 18 ;
+	public static int Pcgclientid = 5 ;
 
 	
-	public static String contentType = "application/json; charset=utf-8" ;
+	public static String contentType = "application/json; charset=utf-8";
 	
 	/*   				Server Details 
 	 * 
@@ -40,5 +40,24 @@ public class Constant {
 	public static String ServerName = "Microsoft-IIS/8.0";
 
 	public static String LastSyncDate = "";//2019-1-10
+	
+	
+	/*							DB User Name Password Details
+	 * 							UserName				Password
+	 * Local					"sa"					"M3ch50ft"
+	 * UAT	 					"adminuser"				"Tr3kSt8r!$#"
+	 * Live  
+	 */
+	public static String DBLoginUserName ="sa";
+	
+	public static String DBLoginPassword ="M3ch50ft";
+	
+	/*							DB ServerName Details
+	 * Local - "jdbc:sqlserver://192.168.5.148;DatabaseName=tblocaltestdb"
+	 * UAT	 - "jdbc:sqlserver:tbgrow.database.windows.net;DatabaseName=tbapptest"
+	 * Live  - 
+	 */
+	public static String DBServerName ="jdbc:sqlserver://192.168.5.148;DatabaseName=tblocaltestdb";
+	
 
 }

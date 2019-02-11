@@ -6,7 +6,6 @@
 	</listeners>
 	<test name="Test">
 		<packages>
-            <package name="hannah"/>
              <package name="pcg"/>
         </packages>
 	</test> <!-- Test -->

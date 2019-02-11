@@ -1,5 +1,4 @@
-28 Jan 2019 13:53:25.977 [main] ERROR ClientProductListTest:46 pcg.ClientProductListTest - Object is Not present
-28 Jan 2019 13:53:25.983 [main] FATAL ClientProductListTest:48 pcg.ClientProductListTest - I am Fatal
-28 Jan 2019 15:02:21.721 [main] INFO  ClientProductListTest:40 pcg.ClientProductListTest - Object is present
-28 Jan 2019 15:02:21.737 [main] ERROR ClientProductListTest:41 pcg.ClientProductListTest - Object is Not present
-28 Jan 2019 15:02:21.737 [main] FATAL ClientProductListTest:43 pcg.ClientProductListTest - I am Fatal
+30 Jan 2019 11:13:12.780 [main] ERROR ClientProductListTest:41 pcg.ClientProductListTest - Object is Not present
+30 Jan 2019 11:13:12.795 [main] FATAL ClientProductListTest:43 pcg.ClientProductListTest - I am Fatal
+30 Jan 2019 11:30:03.785 [main] ERROR ClientProductListTest:41 pcg.ClientProductListTest - Object is Not present
+30 Jan 2019 11:30:03.789 [main] FATAL ClientProductListTest:43 pcg.ClientProductListTest - I am Fatal

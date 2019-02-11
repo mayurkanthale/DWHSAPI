@@ -133,6 +133,13 @@ public class EndPoint {
 		String res = "/DWHS/GetTubingTaskList"; 
 		return res;
 	}
-
+	public static String StrainList() {
+		String res = "/DWHS/GetStrainMasterList"; 
+		return res;
+	}
+	public static String StrainPost() {
+		String res = "/DWHS/StrainMasterListAdd"; 
+		return res;
+	}
 
 }

@@ -29,7 +29,7 @@ public class MasterStrainListTest {
 		
 		
 		//String responseBody = response.getBody().asString();
-		System.out.println("Response Body is =>  " + response.asString());
+		System.out.println("Response Body is =>  " + response.prettyPrint());
 
 }
 	

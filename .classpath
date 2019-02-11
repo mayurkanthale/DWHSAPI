@@ -20,7 +20,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="LogResource"/>
-	<classpathentry kind="lib" path="C:/Users/Mayur Kanthale/Downloads/apache-log4j-2.11.1-bin/apache-log4j-2.11.1-bin/log4j-api-2.11.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Mayur Kanthale/Downloads/apache-log4j-2.11.1-bin/apache-log4j-2.11.1-bin/log4j-core-2.11.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
